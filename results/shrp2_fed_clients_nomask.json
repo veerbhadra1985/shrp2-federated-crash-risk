@@ -1,0 +1,18 @@
+{
+ "testable": true,
+ "n_clients": 7,
+ "dropped_traffic": [
+  "L1-S1"
+ ],
+ "dropped_lighting": [],
+ "unknown_level_trips": 30745,
+ "training_events": {
+  "L0-S0-T0": 1905,
+  "L0-S0-T1": 821,
+  "L0-S1-T0": 298,
+  "L0-S1-T1": 137,
+  "L1-S0-T0": 409,
+  "L1-S0-T1": 160,
+  "L1-S1": 159
+ }
+}

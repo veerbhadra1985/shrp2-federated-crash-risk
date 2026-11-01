@@ -1,0 +1,77 @@
+SHRP2 AUDIT SUPPLEMENT - AGGREGATE COUNTS ONLY (no event IDs)
+==============================================================
+[flag_raw_values]
+  ego_reconstructed: {'0.0': 22374, '1.0': 19030}
+  surrounding_reconstructed: {'0.0': 30847, '1.0': 10557}
+[by_category]
+  Crash: {'listed': 1726, 'flag_ego': 1607, 'flag_sur': 1242, 'flag_both': 1242, 'in_ego_h5': 1607, 'in_sur_h5': 1242, 'in_ego_h5_flag_ego': 1607, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 1242, 'in_both_h5_flag_both': 1242}
+  Crash-Crash: {'listed': 46, 'flag_ego': 43, 'flag_sur': 37, 'flag_both': 37, 'in_ego_h5': 43, 'in_sur_h5': 37, 'in_ego_h5_flag_ego': 43, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 37, 'in_both_h5_flag_both': 37}
+  Crash-CrashRelevant: {'listed': 4, 'flag_ego': 4, 'flag_sur': 3, 'flag_both': 3, 'in_ego_h5': 4, 'in_sur_h5': 3, 'in_ego_h5_flag_ego': 4, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 3, 'in_both_h5_flag_both': 3}
+  Crash-NearCrash: {'listed': 49, 'flag_ego': 43, 'flag_sur': 30, 'flag_both': 30, 'in_ego_h5': 43, 'in_sur_h5': 30, 'in_ego_h5_flag_ego': 43, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 30, 'in_both_h5_flag_both': 30}
+  Crash-OtherConflict: {'listed': 11, 'flag_ego': 11, 'flag_sur': 9, 'flag_both': 9, 'in_ego_h5': 11, 'in_sur_h5': 9, 'in_ego_h5_flag_ego': 11, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 9, 'in_both_h5_flag_both': 9}
+  CrashRelevant-Crash: {'listed': 10, 'flag_ego': 9, 'flag_sur': 6, 'flag_both': 6, 'in_ego_h5': 9, 'in_sur_h5': 6, 'in_ego_h5_flag_ego': 9, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 6, 'in_both_h5_flag_both': 6}
+  CrashRelevant-NearCrash: {'listed': 31, 'flag_ego': 28, 'flag_sur': 25, 'flag_both': 25, 'in_ego_h5': 28, 'in_sur_h5': 25, 'in_ego_h5_flag_ego': 28, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 25, 'in_both_h5_flag_both': 25}
+  NearCrash: {'listed': 6160, 'flag_ego': 5582, 'flag_sur': 4648, 'flag_both': 4648, 'in_ego_h5': 5582, 'in_sur_h5': 4648, 'in_ego_h5_flag_ego': 5582, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 4648, 'in_both_h5_flag_both': 4648}
+  NearCrash-Crash: {'listed': 79, 'flag_ego': 74, 'flag_sur': 61, 'flag_both': 61, 'in_ego_h5': 74, 'in_sur_h5': 61, 'in_ego_h5_flag_ego': 74, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 61, 'in_both_h5_flag_both': 61}
+  NearCrash-CrashRelevant: {'listed': 112, 'flag_ego': 106, 'flag_sur': 88, 'flag_both': 88, 'in_ego_h5': 106, 'in_sur_h5': 88, 'in_ego_h5_flag_ego': 106, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 88, 'in_both_h5_flag_both': 88}
+  NearCrash-NearCrash: {'listed': 512, 'flag_ego': 463, 'flag_sur': 391, 'flag_both': 391, 'in_ego_h5': 463, 'in_sur_h5': 391, 'in_ego_h5_flag_ego': 463, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 391, 'in_both_h5_flag_both': 391}
+  NearCrash-OtherConflict: {'listed': 15, 'flag_ego': 14, 'flag_sur': 11, 'flag_both': 11, 'in_ego_h5': 14, 'in_sur_h5': 11, 'in_ego_h5_flag_ego': 14, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 11, 'in_both_h5_flag_both': 11}
+  SafeBaseline: {'listed': 32509, 'flag_ego': 10919, 'flag_sur': 3893, 'flag_both': 3893, 'in_ego_h5': 30741, 'in_sur_h5': 23715, 'in_ego_h5_flag_ego': 10919, 'in_ego_h5_not_flag_ego': 19822, 'flag_ego_not_in_h5': 0, 'in_both_h5': 23715, 'in_both_h5_flag_both': 3893}
+  SecondaryCrash: {'listed': 17, 'flag_ego': 16, 'flag_sur': 14, 'flag_both': 14, 'in_ego_h5': 16, 'in_sur_h5': 14, 'in_ego_h5_flag_ego': 16, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 14, 'in_both_h5_flag_both': 14}
+  SecondaryNearCrash: {'listed': 123, 'flag_ego': 111, 'flag_sur': 99, 'flag_both': 99, 'in_ego_h5': 111, 'in_sur_h5': 99, 'in_ego_h5_flag_ego': 111, 'in_ego_h5_not_flag_ego': 0, 'flag_ego_not_in_h5': 0, 'in_both_h5': 99, 'in_both_h5_flag_both': 99}
+[baseline_summary]
+  listed: 32509
+  flag_ego: 10919
+  flag_sur: 3893
+  flag_both: 3893
+  in_ego_h5: 30741
+  in_sur_h5: 23715
+  in_ego_h5_flag_ego: 10919
+  in_ego_h5_not_flag_ego: 19822
+  flag_ego_not_in_h5: 0
+  in_both_h5: 23715
+  in_both_h5_flag_both: 3893
+[included_events]
+  4875
+[included_by_category_rule]
+  near-crash: 4593
+  crash: 282
+[included_by_severity_rule]
+  near-crash: 4636
+  crash: 215
+  other: 24
+[crosstab_category_rule_x_severity_rule]
+  crash|crash: 215
+  crash|near-crash: 60
+  crash|other: 7
+  near-crash|near-crash: 4576
+  near-crash|other: 17
+[included_by_event_category]
+  NearCrash: 4013
+  NearCrash-NearCrash: 364
+  Crash: 183
+  SecondaryNearCrash: 96
+  NearCrash-CrashRelevant: 85
+  NearCrash-Crash: 48
+  CrashRelevant-NearCrash: 24
+  Crash-Crash: 16
+  Crash-NearCrash: 14
+  NearCrash-OtherConflict: 11
+  Crash-OtherConflict: 9
+  CrashRelevant-Crash: 5
+  SecondaryCrash: 4
+  Crash-CrashRelevant: 3
+[included_missing_impact_by_category_rule]
+  near-crash: 4
+  crash: 1
+[trafficDensity_levels_included]
+  0.0: 3420
+  1.0: 1450
+  nan: 5
+[traffic_x_lighting_included]
+  T0.0|L0: 2766
+  T0.0|L1: 654
+  T1.0|L0: 1192
+  T1.0|L1: 258
+  TU|L0: 5
+  TU|L1: 0

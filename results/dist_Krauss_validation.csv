@@ -1,0 +1,8 @@
+check,highD_or_limit,sumo,rule,passed
+PRIMARY: TTC<3 s share,0.00037400620730595,0.0002715848661602102,ratio 0.75-1.25,False
+SECONDARY: TTC<1.5 s share,7.365563725140927e-06,9.391814347015088e-05,ratio 0.5-2,False
+"GUARD: traffic criteria (worst, x tolerance)",2.0,1.6666666666666674,<= 2 (time_gap_median_s),True
+GUARD: collisions,0.0,4.0,0,False
+GUARD: max braking m/s2,6.0,6.00000000000005,<= 6.0,True
+REALISM: frames braking >4 m/s2,3e-05,0.005526174888723986,report,
+REALISM: forced cut-ins per veh-km,0.32,0.039198643386081075,well below 0.32 (highD all lane changes),

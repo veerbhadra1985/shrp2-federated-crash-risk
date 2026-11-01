@@ -1,0 +1,4 @@
+test,estimate,p,x,mean_count,n,k,delta0,note,ci_low,ci_high,B_used,discarded,unreliable,p_holm,supported
+H5a,0.09733221005335581,3.928405807514288e-62,347.0,346.6,3561.0,3555.0,0.2,"deployment design: HP threshold from validation units, exact binomial",,,,,,1.1785217422542863e-61,True
+H5b,-0.109637234770705,0.0004997501249375312,,,,,-0.15,"leave one test unit out, paired cluster bootstrap",-0.1218644632768362,-0.09745584126854757,2000.0,0.0,False,0.0004997501249375312,True
+H5c,0.1043527099129458,1.9954222073345505e-53,372.0,371.6,3561.0,3555.0,0.2,"deployment design: HP threshold from validation units, exact binomial",,,,,,3.990844414669101e-53,True

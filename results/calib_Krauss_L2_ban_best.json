@@ -1,0 +1,190 @@
+{
+  "model": "Krauss",
+  "lanes": 2,
+  "params": {
+    "car_sf_mean": 0.9825890491616434,
+    "car_sf_dev": 0.114166604554035,
+    "truck_vmax": 22.96972276773054,
+    "tau": 0.8599552598116845,
+    "tau_cv": 0.1635669493311145,
+    "min_gap": 2.8497300655002475,
+    "lc_speed_gain": 1.1365894744328802,
+    "lc_keep_right": 2.427832491612384,
+    "truck_lc_keep_right": 6.599292324112038,
+    "truck_lc_speed_gain": 0.3816100663383995,
+    "sigma": 0.7829607623598043
+  },
+  "loss": 1.1659019436149258,
+  "verdict": {
+    "calibration": false,
+    "validation": false
+  },
+  "split": "calibration locations ['highD_L2'] | validation locations ['highD_L5']",
+  "report": [
+    {
+      "metric": "speed_p15_kmh",
+      "highD_cal": 83.35,
+      "sumo_cal": 82.5,
+      "pass_cal": true,
+      "highD_val": 86.55,
+      "sumo_val": 82.567,
+      "pass_val": true,
+      "tolerance": "\u00b15%",
+      "in_acceptance": true
+    },
+    {
+      "metric": "speed_p50_kmh",
+      "highD_cal": 110.7,
+      "sumo_cal": 107.733,
+      "pass_cal": true,
+      "highD_val": 107.7,
+      "sumo_val": 111.867,
+      "pass_val": true,
+      "tolerance": "\u00b15%",
+      "in_acceptance": true
+    },
+    {
+      "metric": "speed_p85_kmh",
+      "highD_cal": 133.65,
+      "sumo_cal": 126.667,
+      "pass_cal": false,
+      "highD_val": 128.35,
+      "sumo_val": 126.2,
+      "pass_val": true,
+      "tolerance": "\u00b15%",
+      "in_acceptance": true
+    },
+    {
+      "metric": "time_gap_median_s",
+      "highD_cal": 1.835,
+      "sumo_cal": 1.457,
+      "pass_cal": false,
+      "highD_val": 1.48,
+      "sumo_val": 1.31,
+      "pass_val": false,
+      "tolerance": "\u00b110%",
+      "in_acceptance": true
+    },
+    {
+      "metric": "time_gap_below_1s_share",
+      "highD_cal": 0.228,
+      "sumo_cal": 0.17,
+      "pass_cal": false,
+      "highD_val": 0.286,
+      "sumo_val": 0.227,
+      "pass_val": false,
+      "tolerance": "\u00b10.05",
+      "in_acceptance": true
+    },
+    {
+      "metric": "lane_changes_per_veh_km",
+      "highD_cal": 0.33,
+      "sumo_cal": 0.161,
+      "pass_cal": false,
+      "highD_val": 0.297,
+      "sumo_val": 0.207,
+      "pass_val": false,
+      "tolerance": "\u00b125%",
+      "in_acceptance": true
+    },
+    {
+      "metric": "flow_veh_h",
+      "highD_cal": 1789.0,
+      "sumo_cal": 1813.333,
+      "pass_cal": true,
+      "highD_val": 2166.5,
+      "sumo_val": 2189.0,
+      "pass_val": true,
+      "tolerance": "\u00b15%",
+      "in_acceptance": true
+    },
+    {
+      "metric": "truck_speed_mean_kmh",
+      "highD_cal": 84.2,
+      "sumo_cal": 82.5,
+      "pass_cal": true,
+      "highD_val": 87.95,
+      "sumo_val": 82.5,
+      "pass_val": false,
+      "tolerance": "\u00b15%",
+      "in_acceptance": false
+    },
+    {
+      "metric": "car_share_left_lane",
+      "highD_cal": 0.671,
+      "sumo_cal": 0.81,
+      "pass_cal": false,
+      "highD_val": 0.646,
+      "sumo_val": 0.775,
+      "pass_val": false,
+      "tolerance": "\u00b10.05",
+      "in_acceptance": false
+    },
+    {
+      "metric": "car_share_right_lane",
+      "highD_cal": 0.329,
+      "sumo_cal": 0.19,
+      "pass_cal": false,
+      "highD_val": 0.354,
+      "sumo_val": 0.225,
+      "pass_val": false,
+      "tolerance": "\u00b10.05",
+      "in_acceptance": false
+    },
+    {
+      "metric": "truck_share_right_lane",
+      "highD_cal": 0.991,
+      "sumo_cal": 1.0,
+      "pass_cal": true,
+      "highD_val": 0.945,
+      "sumo_val": 1.0,
+      "pass_val": false,
+      "tolerance": "\u00b10.05",
+      "in_acceptance": false
+    },
+    {
+      "metric": "ttc_below_3s_share",
+      "highD_cal": 0.000537,
+      "sumo_cal": 0.0,
+      "pass_cal": "",
+      "highD_val": 0.000621,
+      "sumo_val": 0.0,
+      "pass_val": "",
+      "tolerance": "report only",
+      "in_acceptance": false
+    },
+    {
+      "metric": "ttc_below_1_5s_share",
+      "highD_cal": 4e-05,
+      "sumo_cal": 0.0,
+      "pass_cal": "",
+      "highD_val": 2.8e-05,
+      "sumo_val": 0.0,
+      "pass_val": "",
+      "tolerance": "report only",
+      "in_acceptance": false
+    },
+    {
+      "metric": "speed_mean_kmh",
+      "highD_cal": 109.25,
+      "sumo_cal": 105.266667,
+      "pass_cal": "",
+      "highD_val": 108.15,
+      "sumo_val": 107.8,
+      "pass_val": "",
+      "tolerance": "report only",
+      "in_acceptance": false
+    },
+    {
+      "metric": "car_speed_mean_kmh",
+      "highD_cal": 120.05,
+      "sumo_cal": 116.0,
+      "pass_cal": "",
+      "highD_val": 114.35,
+      "sumo_val": 115.4,
+      "pass_val": "",
+      "tolerance": "report only",
+      "in_acceptance": false
+    }
+  ]
+}

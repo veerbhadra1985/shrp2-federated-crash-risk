@@ -1,0 +1,6 @@
+test,family,delta0,comparator,estimate,ci_low,ci_high,p,B_used,discarded,unreliable,n_events_recorded_model,n_events_recorded_comparator,testable,note
+H1a,registered,0.0,GSSM_hC,0.05703937002655113,0.008892133657371995,0.09871980465217872,0.008995502248875561,2000,0,False,120.0,228.0,True,comparator GSSM h-C (highD/current)
+H1b,registered,0.0,TTC,0.29055631354232725,0.0467582844312677,0.442919727956079,0.0009995002498750624,2000,0,False,120.0,58.0,True,best classical on validation = TTC
+H1a [2 method-independent],sensitivity,0.0,GSSM_hC,0.06198081314560677,0.01892059562401754,0.10909394758921524,0.0004997501249375312,2000,0,False,202.0,202.0,True,"202 events (17 dropped: shared object not scored in the danger period by every method, C27)"
+H1b [2 method-independent],sensitivity,0.0,TTC,0.18996130574853365,0.09903109247784297,0.27295227549769263,0.0004997501249375312,2000,0,False,202.0,202.0,True,"202 events (17 dropped: shared object not scored in the danger period by every method, C27)"
+H1_P2 model-GSSM (event trips),secondary,0.0,,0.30438178234953445,0.27336420597488154,0.33162972690037446,0.0004997501249375312,2000,0,False,,,,93726 event-trip test frames; GSSM frame score = max over objects

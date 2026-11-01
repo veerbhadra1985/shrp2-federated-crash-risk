@@ -1,0 +1,15 @@
+,value
+units_total,7124.0
+excluded_eligibility,8.0
+excluded_zero_negatives,0.0
+excluded_mixed_split,0.0
+seeds,5.0
+eps_op,2.777777777777778e-05
+frames_per_hour,36000.0
+test_units,3561.0
+validation_units,3555.0
+test_events,487.0
+test_positive_frames,14610.0
+test_units_below_1/eps_0.05,0.0
+test_units_below_1/eps_0.10,0.0
+test_units_below_1/eps_op,3561.0

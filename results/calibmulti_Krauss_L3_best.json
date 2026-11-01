@@ -1,0 +1,117 @@
+{
+  "model": "Krauss",
+  "lanes": 3,
+  "conditions": {
+    "highD_L1": {
+      "speed_p15_kmh": 86.5,
+      "speed_p50_kmh": 108.25,
+      "speed_p85_kmh": 124.8,
+      "time_gap_median_s": 1.6,
+      "time_gap_below_1s_share": 0.2485,
+      "lane_changes_per_veh_km": 0.3035,
+      "truck_speed_mean_kmh": 87.15,
+      "car_share_left_lane": 0.41077002017468367,
+      "car_share_right_lane": 0.12057979762551405,
+      "truck_share_right_lane": 0.8335629949689283,
+      "flow_veh_h": 3787.9999999999995,
+      "truck_share": 0.1905,
+      "directions": 72
+    },
+    "highD_L3": {
+      "speed_p15_kmh": 86.8,
+      "speed_p50_kmh": 107.35,
+      "speed_p85_kmh": 131.3,
+      "time_gap_median_s": 2.275,
+      "time_gap_below_1s_share": 0.154,
+      "lane_changes_per_veh_km": 0.5505,
+      "truck_speed_mean_kmh": 88.85,
+      "car_share_left_lane": 0.275318932999183,
+      "car_share_right_lane": 0.2871573555555244,
+      "truck_share_right_lane": 0.6680478630335022,
+      "flow_veh_h": 1944.9999999999998,
+      "truck_share": 0.278,
+      "directions": 6
+    },
+    "highD_L4": {
+      "speed_p15_kmh": 89.15,
+      "speed_p50_kmh": 121.30000000000001,
+      "speed_p85_kmh": 146.3,
+      "time_gap_median_s": 2.04,
+      "time_gap_below_1s_share": 0.1895,
+      "lane_changes_per_veh_km": 0.4315,
+      "truck_speed_mean_kmh": 90.15,
+      "car_share_left_lane": 0.32857281916081027,
+      "car_share_right_lane": 0.16066487660468198,
+      "truck_share_right_lane": 0.8884570202500577,
+      "flow_veh_h": 2542.5,
+      "truck_share": 0.199,
+      "directions": 8
+    },
+    "highD_L6": {
+      "speed_p15_kmh": 78.5,
+      "speed_p50_kmh": 102.8,
+      "speed_p85_kmh": 123.9,
+      "time_gap_median_s": 2.07,
+      "time_gap_below_1s_share": 0.164,
+      "lane_changes_per_veh_km": 0.324,
+      "truck_speed_mean_kmh": 79.8,
+      "car_share_left_lane": 0.3597047451669596,
+      "car_share_right_lane": 0.1264534270650263,
+      "truck_share_right_lane": 0.9397914564413052,
+      "flow_veh_h": 2750.0,
+      "truck_share": 0.22,
+      "directions": 3
+    }
+  },
+  "verdicts": {
+    "highD_L1": {
+      "run": 46,
+      "all_pass": false,
+      "all_within_2x": false,
+      "worst": "time_gap_below_1s_share",
+      "worst_x": 2.3
+    },
+    "highD_L3": {
+      "run": 57,
+      "all_pass": false,
+      "all_within_2x": true,
+      "worst": "time_gap_median_s",
+      "worst_x": 1.47
+    },
+    "highD_L4": {
+      "run": 45,
+      "all_pass": false,
+      "all_within_2x": false,
+      "worst": "speed_p85_kmh",
+      "worst_x": 2.98
+    },
+    "highD_L6": {
+      "run": 45,
+      "all_pass": false,
+      "all_within_2x": false,
+      "worst": "lane_changes_per_veh_km",
+      "worst_x": 2.95
+    },
+    "ALL (in-sample)": {
+      "run": 46,
+      "all_pass": false,
+      "all_within_2x": false,
+      "worst": "speed_p85_kmh",
+      "worst_x": 2.47
+    }
+  },
+  "best_all_params": {
+    "car_sf_mean": 0.947401208733413,
+    "car_sf_dev": 0.099442783712395,
+    "truck_vmax": 23.288317398674447,
+    "tau": 0.6,
+    "tau_cv": 0.0784339535900937,
+    "min_gap": 2.0128006534200216,
+    "lc_speed_gain": 1.8576086036885535,
+    "lc_keep_right": 3.3640663959612414,
+    "truck_lc_keep_right": 9.18619817896287,
+    "truck_lc_speed_gain": 0.5778963865629395,
+    "sigma": 0.7682081193052446
+  },
+  "caveat": "refinement guided by all locations; selection held out"
+}

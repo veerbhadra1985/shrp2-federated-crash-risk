@@ -1,0 +1,89 @@
+held_out,location,run,metric,highD,sumo,err_x_tol,passed,within_2x,in_acceptance
+highD_L1,highD_L1,57,speed_p15_kmh,86.5,85.2333,-0.29,True,True,True
+highD_L1,highD_L1,57,speed_p50_kmh,108.25,102.3667,-1.09,False,True,True
+highD_L1,highD_L1,57,speed_p85_kmh,124.8,116.5667,-1.32,False,True,True
+highD_L1,highD_L1,57,time_gap_median_s,1.6,1.7733,1.08,False,True,True
+highD_L1,highD_L1,57,time_gap_below_1s_share,0.2485,0.2147,-0.68,True,True,True
+highD_L1,highD_L1,57,lane_changes_per_veh_km,0.3035,0.243,-0.8,True,True,True
+highD_L1,highD_L1,57,flow_veh_h,3788.0,3622.3333,-0.87,True,True,True
+highD_L1,highD_L1,57,truck_speed_mean_kmh,87.15,85.3333,-0.42,True,True,False
+highD_L1,highD_L1,57,car_share_left_lane,0.4108,0.5254,2.29,False,False,False
+highD_L1,highD_L1,57,car_share_right_lane,0.1206,0.122,0.03,True,True,False
+highD_L1,highD_L1,57,truck_share_right_lane,0.8336,0.7474,-1.72,False,True,False
+highD_L3,highD_L3,57,speed_p15_kmh,86.8,85.7333,-0.25,True,True,True
+highD_L3,highD_L3,57,speed_p50_kmh,107.35,105.5333,-0.34,True,True,True
+highD_L3,highD_L3,57,speed_p85_kmh,131.3,123.5333,-1.18,False,True,True
+highD_L3,highD_L3,57,time_gap_median_s,2.275,3.0867,3.57,False,False,True
+highD_L3,highD_L3,57,time_gap_below_1s_share,0.154,0.0837,-1.41,False,True,True
+highD_L3,highD_L3,57,lane_changes_per_veh_km,0.5505,0.41,-1.02,False,True,True
+highD_L3,highD_L3,57,flow_veh_h,1945.0,1991.3333,0.48,True,True,True
+highD_L3,highD_L3,57,truck_speed_mean_kmh,88.85,85.9333,-0.66,True,True,False
+highD_L3,highD_L3,57,car_share_left_lane,0.2753,0.46,3.69,False,False,False
+highD_L3,highD_L3,57,car_share_right_lane,0.2872,0.1424,-2.9,False,False,False
+highD_L3,highD_L3,57,truck_share_right_lane,0.668,0.7992,2.62,False,False,False
+highD_L4,highD_L4,57,speed_p15_kmh,89.15,86.3667,-0.62,True,True,True
+highD_L4,highD_L4,57,speed_p50_kmh,121.3,108.3,-2.14,False,False,True
+highD_L4,highD_L4,57,speed_p85_kmh,146.3,121.9333,-3.33,False,False,True
+highD_L4,highD_L4,57,time_gap_median_s,2.04,2.5133,2.32,False,False,True
+highD_L4,highD_L4,57,time_gap_below_1s_share,0.1895,0.1117,-1.56,False,True,True
+highD_L4,highD_L4,57,lane_changes_per_veh_km,0.4315,0.317,-1.06,False,True,True
+highD_L4,highD_L4,57,flow_veh_h,2542.5,2544.3333,0.01,True,True,True
+highD_L4,highD_L4,57,truck_speed_mean_kmh,90.15,86.0,-0.92,True,True,False
+highD_L4,highD_L4,57,car_share_left_lane,0.3286,0.4707,2.84,False,False,False
+highD_L4,highD_L4,57,car_share_right_lane,0.1607,0.1392,-0.43,True,True,False
+highD_L4,highD_L4,57,truck_share_right_lane,0.8885,0.7952,-1.87,False,True,False
+highD_L6,highD_L6,57,speed_p15_kmh,78.5,85.9667,1.9,False,True,True
+highD_L6,highD_L6,57,speed_p50_kmh,102.8,105.9333,0.61,True,True,True
+highD_L6,highD_L6,57,speed_p85_kmh,123.9,121.1333,-0.45,True,True,True
+highD_L6,highD_L6,57,time_gap_median_s,2.07,2.3233,1.22,False,True,True
+highD_L6,highD_L6,57,time_gap_below_1s_share,0.164,0.1293,-0.69,True,True,True
+highD_L6,highD_L6,57,lane_changes_per_veh_km,0.324,0.3267,0.03,True,True,True
+highD_L6,highD_L6,57,flow_veh_h,2750.0,2760.0,0.07,True,True,True
+highD_L6,highD_L6,57,truck_speed_mean_kmh,79.8,85.6667,1.47,False,True,False
+highD_L6,highD_L6,57,car_share_left_lane,0.3597,0.4984,2.77,False,False,False
+highD_L6,highD_L6,57,car_share_right_lane,0.1265,0.1144,-0.24,True,True,False
+highD_L6,highD_L6,57,truck_share_right_lane,0.9398,0.7911,-2.97,False,False,False
+ALL (in-sample),highD_L1,57,speed_p15_kmh,86.5,85.2333,-0.29,True,True,True
+ALL (in-sample),highD_L1,57,speed_p50_kmh,108.25,102.3667,-1.09,False,True,True
+ALL (in-sample),highD_L1,57,speed_p85_kmh,124.8,116.5667,-1.32,False,True,True
+ALL (in-sample),highD_L1,57,time_gap_median_s,1.6,1.7733,1.08,False,True,True
+ALL (in-sample),highD_L1,57,time_gap_below_1s_share,0.2485,0.2147,-0.68,True,True,True
+ALL (in-sample),highD_L1,57,lane_changes_per_veh_km,0.3035,0.243,-0.8,True,True,True
+ALL (in-sample),highD_L1,57,flow_veh_h,3788.0,3622.3333,-0.87,True,True,True
+ALL (in-sample),highD_L1,57,truck_speed_mean_kmh,87.15,85.3333,-0.42,True,True,False
+ALL (in-sample),highD_L1,57,car_share_left_lane,0.4108,0.5254,2.29,False,False,False
+ALL (in-sample),highD_L1,57,car_share_right_lane,0.1206,0.122,0.03,True,True,False
+ALL (in-sample),highD_L1,57,truck_share_right_lane,0.8336,0.7474,-1.72,False,True,False
+ALL (in-sample),highD_L3,57,speed_p15_kmh,86.8,85.7333,-0.25,True,True,True
+ALL (in-sample),highD_L3,57,speed_p50_kmh,107.35,105.5333,-0.34,True,True,True
+ALL (in-sample),highD_L3,57,speed_p85_kmh,131.3,123.5333,-1.18,False,True,True
+ALL (in-sample),highD_L3,57,time_gap_median_s,2.275,3.0867,3.57,False,False,True
+ALL (in-sample),highD_L3,57,time_gap_below_1s_share,0.154,0.0837,-1.41,False,True,True
+ALL (in-sample),highD_L3,57,lane_changes_per_veh_km,0.5505,0.41,-1.02,False,True,True
+ALL (in-sample),highD_L3,57,flow_veh_h,1945.0,1991.3333,0.48,True,True,True
+ALL (in-sample),highD_L3,57,truck_speed_mean_kmh,88.85,85.9333,-0.66,True,True,False
+ALL (in-sample),highD_L3,57,car_share_left_lane,0.2753,0.46,3.69,False,False,False
+ALL (in-sample),highD_L3,57,car_share_right_lane,0.2872,0.1424,-2.9,False,False,False
+ALL (in-sample),highD_L3,57,truck_share_right_lane,0.668,0.7992,2.62,False,False,False
+ALL (in-sample),highD_L4,57,speed_p15_kmh,89.15,86.3667,-0.62,True,True,True
+ALL (in-sample),highD_L4,57,speed_p50_kmh,121.3,108.3,-2.14,False,False,True
+ALL (in-sample),highD_L4,57,speed_p85_kmh,146.3,121.9333,-3.33,False,False,True
+ALL (in-sample),highD_L4,57,time_gap_median_s,2.04,2.5133,2.32,False,False,True
+ALL (in-sample),highD_L4,57,time_gap_below_1s_share,0.1895,0.1117,-1.56,False,True,True
+ALL (in-sample),highD_L4,57,lane_changes_per_veh_km,0.4315,0.317,-1.06,False,True,True
+ALL (in-sample),highD_L4,57,flow_veh_h,2542.5,2544.3333,0.01,True,True,True
+ALL (in-sample),highD_L4,57,truck_speed_mean_kmh,90.15,86.0,-0.92,True,True,False
+ALL (in-sample),highD_L4,57,car_share_left_lane,0.3286,0.4707,2.84,False,False,False
+ALL (in-sample),highD_L4,57,car_share_right_lane,0.1607,0.1392,-0.43,True,True,False
+ALL (in-sample),highD_L4,57,truck_share_right_lane,0.8885,0.7952,-1.87,False,True,False
+ALL (in-sample),highD_L6,57,speed_p15_kmh,78.5,85.9667,1.9,False,True,True
+ALL (in-sample),highD_L6,57,speed_p50_kmh,102.8,105.9333,0.61,True,True,True
+ALL (in-sample),highD_L6,57,speed_p85_kmh,123.9,121.1333,-0.45,True,True,True
+ALL (in-sample),highD_L6,57,time_gap_median_s,2.07,2.3233,1.22,False,True,True
+ALL (in-sample),highD_L6,57,time_gap_below_1s_share,0.164,0.1293,-0.69,True,True,True
+ALL (in-sample),highD_L6,57,lane_changes_per_veh_km,0.324,0.3267,0.03,True,True,True
+ALL (in-sample),highD_L6,57,flow_veh_h,2750.0,2760.0,0.07,True,True,True
+ALL (in-sample),highD_L6,57,truck_speed_mean_kmh,79.8,85.6667,1.47,False,True,False
+ALL (in-sample),highD_L6,57,car_share_left_lane,0.3597,0.4984,2.77,False,False,False
+ALL (in-sample),highD_L6,57,car_share_right_lane,0.1265,0.1144,-0.24,True,True,False
+ALL (in-sample),highD_L6,57,truck_share_right_lane,0.9398,0.7911,-2.97,False,False,False

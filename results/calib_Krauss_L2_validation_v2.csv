@@ -1,0 +1,13 @@
+metric,highD_cal,sumo_cal,pass_cal,highD_val,sumo_val,pass_val,tolerance,in_acceptance
+speed_p15_kmh,83.35,85.7,True,86.55,86.167,True,±5%,True
+speed_p50_kmh,110.7,95.3,False,107.7,95.567,False,±5%,True
+speed_p85_kmh,133.65,111.233,False,128.35,114.033,False,±5%,True
+time_gap_median_s,1.835,1.753,True,1.48,1.6,True,±10%,True
+time_gap_below_1s_share,0.228,0.174,False,0.286,0.197,False,±0.05,True
+lane_changes_per_veh_km,0.33,0.205,False,0.297,0.202,False,±25%,True
+flow_veh_h,1789.0,1817.667,True,2166.5,2206.333,True,±5%,True
+truck_speed_mean_kmh,84.2,92.667,False,87.95,92.3,True,±5%,False
+ttc_below_3s_share,0.000537,0.0,,0.000621,0.0,,report only,False
+ttc_below_1_5s_share,4e-05,0.0,,2.8e-05,0.0,,report only,False
+speed_mean_kmh,109.25,97.933333,,108.15,99.3,,report only,False
+car_speed_mean_kmh,120.05,99.933333,,114.35,101.0,,report only,False

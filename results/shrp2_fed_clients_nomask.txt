@@ -1,0 +1,11 @@
+SHRP2 H3 CLIENTS (registered rule + clarifications C11-C12; aggregate counts only, shareable)
+testable: True
+clients: 7; trips with an unknown level (no client): 30745
+traffic density dropped for: ['L1-S1']; lighting dropped for: none
+  L0-S0-T0: 1905 training events
+  L0-S0-T1: 821 training events
+  L0-S1-T0: 298 training events
+  L0-S1-T1: 137 training events
+  L1-S0-T0: 409 training events
+  L1-S0-T1: 160 training events
+  L1-S1: 159 training events

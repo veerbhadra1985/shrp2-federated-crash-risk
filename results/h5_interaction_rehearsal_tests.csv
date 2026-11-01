@@ -1,0 +1,4 @@
+test,estimate,p,note,ci_low,ci_high,B_used,discarded,unreliable,delta0,p_holm,supported
+H5a,,,not testable: n = 22 test units < 50,,,,,,,,False
+H5b,-0.08749999999999998,0.0004997501249375312,"leave one test unit out, paired cluster bootstrap",-0.10954038461538462,-0.06766645165191804,2000.0,0.0,False,-0.15,0.0004997501249375312,True
+H5c,,,not testable: n = 22 test units < 50,,,,,,,,False

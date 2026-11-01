@@ -1,0 +1,83 @@
+SHRP2 CONFIRMATORY ANALYSIS, P2 PART - aggregate results only (shareable) - nomask
+risk head hazard; primary horizon 3 s; B = 2000; clusters = test trips
+
+                                                     test      family  estimate   ci_low  ci_high       p  discarded  unreliable                                                 note
+                                     H1_P2 model-LightGBM   secondary   0.08406  0.07076  0.09850 0.00050          0       False                                          head hazard
+                               H1_P2 model-best classical   secondary   0.35415  0.32821  0.37886 0.00050          0       False       best classical (validation) = TTC; head hazard
+                                                      H4a  registered  -0.00545 -0.01199  0.00110 0.94953          0       False natural-dropout subset: 34151 frames, 2513 positives
+                                                      H4b  registered   0.11299  0.10207  0.12482 0.00050          0       False                                    50% frame flicker
+                                                      H4c  registered  -0.00457 -0.00713 -0.00184 0.00050          0       False                        non-inferiority, margin -0.02
+                                                       H2  registered   0.27969  0.08700  0.34879 0.00100          0       False                                7 of 8 pairs testable
+                                               H2_matched   secondary   0.14757  0.00722  0.22978 0.01649          0       False                           size-matched (Amendment 1)
+                                                      H3a  registered   0.00156 -0.00029  0.00255 0.05497          0       False                             93726 client test frames
+                                                     H3b1  registered   0.03504  0.02422  0.04694 0.00050          0       False                                                     
+                                                     H3b2  registered   0.02852  0.02000  0.03834 0.00050          0       False                                                     
+                      H1_P2 model-LightGBM [1 crash-only]   secondary   0.12690  0.06325  0.19627 0.00050          0       False                                          head hazard
+                H1_P2 model-best classical [1 crash-only]   secondary   0.22849  0.10298  0.35846 0.00050          0       False     best classical (validation) = TTC2D; head hazard
+                                       H4a [1 crash-only] sensitivity  -0.00705 -0.03801  0.02403 0.50975          0       False   natural-dropout subset: 23912 frames, 87 positives
+                                       H4b [1 crash-only] sensitivity   0.10563  0.05480  0.16682 0.00050          0       False                                    50% frame flicker
+                                       H4c [1 crash-only] sensitivity  -0.00304 -0.01581  0.01113 0.00600          0       False                        non-inferiority, margin -0.02
+                                        H2 [1 crash-only] sensitivity       NaN      NaN      NaN     NaN          0       False                   NOT TESTABLE: 0 testable pairs < 4
+                                       H3a [1 crash-only] sensitivity   0.00446 -0.00435  0.00862 0.19440          0       False                              5616 client test frames
+                                      H3b1 [1 crash-only] sensitivity   0.07112  0.00235  0.14333 0.01549          0       False                                                     
+                                      H3b2 [1 crash-only] sensitivity   0.07666  0.01599  0.13772 0.00050          0       False                                                     
+                     H1_P2 model-LightGBM [3 horizon 1 s]   secondary   0.15642  0.13392  0.17907 0.00050          0       False                                          head hazard
+               H1_P2 model-best classical [3 horizon 1 s]   secondary   0.47994  0.44529  0.51435 0.00050          0       False       best classical (validation) = TTC; head hazard
+                                      H4a [3 horizon 1 s] sensitivity  -0.01323 -0.02521  0.00058 0.96852          0       False  natural-dropout subset: 37749 frames, 808 positives
+                                      H4b [3 horizon 1 s] sensitivity   0.08685  0.07597  0.09890 0.00050          0       False                                    50% frame flicker
+                                      H4c [3 horizon 1 s] sensitivity  -0.00003 -0.00491  0.00524 0.00050          0       False                        non-inferiority, margin -0.02
+                                       H2 [3 horizon 1 s] sensitivity   0.02734 -0.10264  0.23656 0.26087          0       False                                7 of 8 pairs testable
+                               H2_matched [3 horizon 1 s]   secondary  -0.02427 -0.12797  0.11609 0.62419          0       False                           size-matched (Amendment 1)
+                                      H3a [3 horizon 1 s] sensitivity   0.00050 -0.00005  0.00098 0.04248          0       False                             93726 client test frames
+                                     H3b1 [3 horizon 1 s] sensitivity   0.04672  0.02942  0.06432 0.00050          0       False                                                     
+                                     H3b2 [3 horizon 1 s] sensitivity   0.04090  0.02581  0.05622 0.00050          0       False                                                     
+                     H1_P2 model-LightGBM [3 horizon 2 s]   secondary   0.09967  0.08327  0.11664 0.00050          0       False                                          head hazard
+               H1_P2 model-best classical [3 horizon 2 s]   secondary   0.41050  0.37978  0.43964 0.00050          0       False       best classical (validation) = TTC; head hazard
+                                      H4a [3 horizon 2 s] sensitivity  -0.00658 -0.01350  0.00019 0.97301          0       False natural-dropout subset: 35972 frames, 1733 positives
+                                      H4b [3 horizon 2 s] sensitivity   0.09647  0.08647  0.10723 0.00050          0       False                                    50% frame flicker
+                                      H4c [3 horizon 2 s] sensitivity  -0.00222 -0.00505  0.00072 0.00050          0       False                        non-inferiority, margin -0.02
+                                       H2 [3 horizon 2 s] sensitivity   0.20765  0.00912  0.30164 0.02049          0       False                                7 of 8 pairs testable
+                               H2_matched [3 horizon 2 s]   secondary   0.07697 -0.05588  0.14218 0.17741          0       False                           size-matched (Amendment 1)
+                                      H3a [3 horizon 2 s] sensitivity   0.00077 -0.00014  0.00178 0.04448          0       False                             93726 client test frames
+                                     H3b1 [3 horizon 2 s] sensitivity   0.04333  0.03100  0.05655 0.00050          0       False                                                     
+                                     H3b2 [3 horizon 2 s] sensitivity   0.03483  0.02468  0.04612 0.00050          0       False                                                     
+                     H1_P2 model-LightGBM [3 horizon 5 s]   secondary   0.06707  0.05581  0.07812 0.00050          0       False                                          head hazard
+               H1_P2 model-best classical [3 horizon 5 s]   secondary   0.28810  0.26710  0.30896 0.00050          0       False       best classical (validation) = TTC; head hazard
+                                      H4a [3 horizon 5 s] sensitivity  -0.00567 -0.01065 -0.00068 0.99000          0       False natural-dropout subset: 30993 frames, 3651 positives
+                                      H4b [3 horizon 5 s] sensitivity   0.10153  0.09256  0.11078 0.00050          0       False                                    50% frame flicker
+                                      H4c [3 horizon 5 s] sensitivity  -0.00505 -0.00739 -0.00265 0.00050          0       False                        non-inferiority, margin -0.02
+                                       H2 [3 horizon 5 s] sensitivity   0.33141  0.09102  0.38764 0.00400          0       False                                7 of 8 pairs testable
+                               H2_matched [3 horizon 5 s]   secondary   0.19690  0.04532  0.26967 0.00600          0       False                           size-matched (Amendment 1)
+                                      H3a [3 horizon 5 s] sensitivity   0.00082 -0.00181  0.00330 0.24438          0       False                             93726 client test frames
+                                     H3b1 [3 horizon 5 s] sensitivity   0.02531  0.01630  0.03500 0.00050          0       False                                                     
+                                     H3b2 [3 horizon 5 s] sensitivity   0.02105  0.01422  0.02853 0.00050          0       False                                                     
+                H1_P2 model-LightGBM [4 other head (sep)]   secondary   0.08049  0.06714  0.09416 0.00050          0       False                                             head sep
+          H1_P2 model-best classical [4 other head (sep)]   secondary   0.35057  0.32493  0.37538 0.00050          0       False          best classical (validation) = TTC; head sep
+                                 H4a [4 other head (sep)] sensitivity       NaN      NaN      NaN     NaN          0       False   NOT TESTABLE: central_sep_aug/noaug models missing
+                                 H4b [4 other head (sep)] sensitivity       NaN      NaN      NaN     NaN          0       False   NOT TESTABLE: central_sep_aug/noaug models missing
+                                 H4c [4 other head (sep)] sensitivity       NaN      NaN      NaN     NaN          0       False   NOT TESTABLE: central_sep_aug/noaug models missing
+                                   H2 [5 equal-width ECE] sensitivity   0.28171  0.09456  0.36310 0.00250          0       False                                7 of 8 pairs testable
+                           H2_matched [5 equal-width ECE]   secondary   0.18551  0.02078  0.26064 0.01149          0       False                           size-matched (Amendment 1)
+                                  H3a [5 equal-width ECE] sensitivity   0.00096 -0.00026  0.00212 0.05797          0       False                             93726 client test frames
+                                       H2 [6 temperature] sensitivity   0.32111  0.09732  0.40104 0.00150          0       False                                7 of 8 pairs testable
+                               H2_matched [6 temperature]   secondary   0.22617  0.05076  0.29777 0.00200          0       False                           size-matched (Amendment 1)
+                                      H3a [6 temperature] sensitivity   0.00112 -0.00116  0.00200 0.26137          0       False                             93726 client test frames
+                                          H2 [6 isotonic] sensitivity   0.26362  0.04209  0.40384 0.00450          0       False                                7 of 8 pairs testable
+                                  H2_matched [6 isotonic]   secondary   0.14958  0.01433  0.33917 0.01749          0       False                           size-matched (Amendment 1)
+                                         H3a [6 isotonic] sensitivity  -0.00086 -0.00352  0.00119 0.82309          0       False                             93726 client test frames
+      H1_P2 model-LightGBM [7 baselines with >= 1 object]   secondary   0.08423  0.07052  0.09814 0.00050          0       False                                          head hazard
+H1_P2 model-best classical [7 baselines with >= 1 object]   secondary   0.35425  0.32693  0.37995 0.00050          0       False       best classical (validation) = TTC; head hazard
+                       H4a [7 baselines with >= 1 object] sensitivity  -0.00545 -0.01199  0.00110 0.94953          0       False natural-dropout subset: 34151 frames, 2513 positives
+                       H4b [7 baselines with >= 1 object] sensitivity   0.11541  0.10422  0.12627 0.00050          0       False                                    50% frame flicker
+                       H4c [7 baselines with >= 1 object] sensitivity  -0.00406 -0.00673 -0.00148 0.00050          0       False                        non-inferiority, margin -0.02
+                        H2 [7 baselines with >= 1 object] sensitivity   0.27969  0.08191  0.35416 0.00400          0       False                                7 of 8 pairs testable
+                H2_matched [7 baselines with >= 1 object]   secondary   0.14757  0.00401  0.23292 0.02249          0       False                           size-matched (Amendment 1)
+                       H3a [7 baselines with >= 1 object] sensitivity   0.00156 -0.00029  0.00255 0.05497          0       False                             93726 client test frames
+                      H3b1 [7 baselines with >= 1 object] sensitivity   0.03504  0.02422  0.04694 0.00050          0       False                                                     
+                      H3b2 [7 baselines with >= 1 object] sensitivity   0.02852  0.02000  0.03834 0.00050          0       False                                                     
+
+H2 secondary (conformal false-alarm guarantee): violating held-out domains per alpha (cluster rule, Amendment 1)
+       violating  testable
+alpha                     
+0.01           2         7
+0.05           2         7

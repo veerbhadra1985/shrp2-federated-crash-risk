@@ -1,0 +1,73 @@
+location,n_recordings,readout,level,reached,m,minutes
+DR_CHN_Merging_ZS,11,LOC-CRC beats SRC-CRC,0.05,True,3.0,23.843333333333334
+DR_CHN_Merging_ZS,11,LOC-CRC beats SRC-CRC,0.10,True,2.0,14.823333333333334
+DR_CHN_Merging_ZS,11,LOC-HP beats SRC-HP,0.05,True,6.0,50.873333333333335
+DR_CHN_Merging_ZS,11,LOC-HP beats SRC-HP,0.10,True,9.0,77.90666666666668
+DR_CHN_Merging_ZS,11,LOC-HP beats SRC-HP,op,False,,
+DR_CHN_Merging_ZS,11,T_burn ECE < T_src ECE,-,True,1.0,5.791666666666667
+DR_CHN_Roundabout_LN,5,LOC-CRC beats SRC-CRC,0.05,True,4.0,19.145000000000003
+DR_CHN_Roundabout_LN,5,LOC-CRC beats SRC-CRC,0.10,True,3.0,14.366666666666667
+DR_CHN_Roundabout_LN,5,LOC-HP beats SRC-HP,0.05,True,2.0,9.578333333333333
+DR_CHN_Roundabout_LN,5,LOC-HP beats SRC-HP,0.10,True,2.0,9.578333333333333
+DR_CHN_Roundabout_LN,5,LOC-HP beats SRC-HP,op,True,2.0,9.578333333333333
+DR_CHN_Roundabout_LN,5,T_burn ECE < T_src ECE,-,True,4.0,19.145000000000003
+DR_DEU_Merging_MT,15,LOC-CRC beats SRC-CRC,0.05,False,,
+DR_DEU_Merging_MT,15,LOC-CRC beats SRC-CRC,0.10,True,6.0,7.226666666666667
+DR_DEU_Merging_MT,15,LOC-HP beats SRC-HP,0.05,True,6.0,7.226666666666667
+DR_DEU_Merging_MT,15,LOC-HP beats SRC-HP,0.10,True,6.0,7.226666666666667
+DR_DEU_Merging_MT,15,LOC-HP beats SRC-HP,op,False,,
+DR_DEU_Merging_MT,15,T_burn ECE < T_src ECE,-,True,1.0,1.465
+DR_DEU_Roundabout_OF,12,LOC-CRC beats SRC-CRC,0.05,True,4.0,21.568333333333335
+DR_DEU_Roundabout_OF,12,LOC-CRC beats SRC-CRC,0.10,True,3.0,16.18
+DR_DEU_Roundabout_OF,12,LOC-HP beats SRC-HP,0.05,True,2.0,10.785
+DR_DEU_Roundabout_OF,12,LOC-HP beats SRC-HP,0.10,True,2.0,10.785
+DR_DEU_Roundabout_OF,12,LOC-HP beats SRC-HP,op,True,7.0,35.663333333333334
+DR_DEU_Roundabout_OF,12,T_burn ECE < T_src ECE,-,True,1.0,5.39
+DR_USA_Intersection_EP0,8,LOC-CRC beats SRC-CRC,0.05,True,6.0,29.233333333333334
+DR_USA_Intersection_EP0,8,LOC-CRC beats SRC-CRC,0.10,False,,
+DR_USA_Intersection_EP0,8,LOC-HP beats SRC-HP,0.05,False,,
+DR_USA_Intersection_EP0,8,LOC-HP beats SRC-HP,0.10,False,,
+DR_USA_Intersection_EP0,8,LOC-HP beats SRC-HP,op,True,2.0,9.445
+DR_USA_Intersection_EP0,8,T_burn ECE < T_src ECE,-,True,2.0,9.445
+DR_USA_Intersection_EP1,6,LOC-CRC beats SRC-CRC,0.05,True,5.0,23.654999999999998
+DR_USA_Intersection_EP1,6,LOC-CRC beats SRC-CRC,0.10,False,,
+DR_USA_Intersection_EP1,6,LOC-HP beats SRC-HP,0.05,True,5.0,23.654999999999998
+DR_USA_Intersection_EP1,6,LOC-HP beats SRC-HP,0.10,False,,
+DR_USA_Intersection_EP1,6,LOC-HP beats SRC-HP,op,True,2.0,9.881666666666668
+DR_USA_Intersection_EP1,6,T_burn ECE < T_src ECE,-,True,2.0,9.881666666666668
+DR_USA_Intersection_GL,60,LOC-CRC beats SRC-CRC,0.05,True,5.0,20.62
+DR_USA_Intersection_GL,60,LOC-CRC beats SRC-CRC,0.10,True,5.0,20.62
+DR_USA_Intersection_GL,60,LOC-HP beats SRC-HP,0.05,True,2.0,9.903333333333332
+DR_USA_Intersection_GL,60,LOC-HP beats SRC-HP,0.10,True,5.0,20.62
+DR_USA_Intersection_GL,60,LOC-HP beats SRC-HP,op,True,5.0,20.62
+DR_USA_Intersection_GL,60,T_burn ECE < T_src ECE,-,True,27.0,118.29499999999999
+DR_USA_Intersection_MA,22,LOC-CRC beats SRC-CRC,0.05,True,4.0,19.805
+DR_USA_Intersection_MA,22,LOC-CRC beats SRC-CRC,0.10,True,4.0,19.805
+DR_USA_Intersection_MA,22,LOC-HP beats SRC-HP,0.05,True,2.0,9.91
+DR_USA_Intersection_MA,22,LOC-HP beats SRC-HP,0.10,True,2.0,9.91
+DR_USA_Intersection_MA,22,LOC-HP beats SRC-HP,op,True,17.0,81.99666666666666
+DR_USA_Intersection_MA,22,T_burn ECE < T_src ECE,-,True,1.0,4.955
+DR_USA_Roundabout_EP,8,LOC-CRC beats SRC-CRC,0.05,True,7.0,31.979999999999997
+DR_USA_Roundabout_EP,8,LOC-CRC beats SRC-CRC,0.10,False,,
+DR_USA_Roundabout_EP,8,LOC-HP beats SRC-HP,0.05,False,,
+DR_USA_Roundabout_EP,8,LOC-HP beats SRC-HP,0.10,False,,
+DR_USA_Roundabout_EP,8,LOC-HP beats SRC-HP,op,False,,
+DR_USA_Roundabout_EP,8,T_burn ECE < T_src ECE,-,True,2.0,7.2283333333333335
+DR_USA_Roundabout_FT,46,LOC-CRC beats SRC-CRC,0.05,True,4.0,19.393333333333334
+DR_USA_Roundabout_FT,46,LOC-CRC beats SRC-CRC,0.10,True,5.0,24.331666666666667
+DR_USA_Roundabout_FT,46,LOC-HP beats SRC-HP,0.05,True,4.0,19.393333333333334
+DR_USA_Roundabout_FT,46,LOC-HP beats SRC-HP,0.10,True,4.0,19.393333333333334
+DR_USA_Roundabout_FT,46,LOC-HP beats SRC-HP,op,True,2.0,9.905000000000001
+DR_USA_Roundabout_FT,46,T_burn ECE < T_src ECE,-,True,10.0,49.093333333333334
+DR_USA_Roundabout_SR,10,LOC-CRC beats SRC-CRC,0.05,True,4.0,18.638333333333332
+DR_USA_Roundabout_SR,10,LOC-CRC beats SRC-CRC,0.10,True,2.0,9.2
+DR_USA_Roundabout_SR,10,LOC-HP beats SRC-HP,0.05,True,2.0,9.2
+DR_USA_Roundabout_SR,10,LOC-HP beats SRC-HP,0.10,True,2.0,9.2
+DR_USA_Roundabout_SR,10,LOC-HP beats SRC-HP,op,False,,
+DR_USA_Roundabout_SR,10,T_burn ECE < T_src ECE,-,True,1.0,4.953333333333333
+TC_BGR_Intersection_VA,4,LOC-CRC beats SRC-CRC,0.05,True,2.0,29.85
+TC_BGR_Intersection_VA,4,LOC-CRC beats SRC-CRC,0.10,True,1.0,14.925
+TC_BGR_Intersection_VA,4,LOC-HP beats SRC-HP,0.05,True,1.0,14.925
+TC_BGR_Intersection_VA,4,LOC-HP beats SRC-HP,0.10,True,1.0,14.925
+TC_BGR_Intersection_VA,4,LOC-HP beats SRC-HP,op,True,1.0,14.925
+TC_BGR_Intersection_VA,4,T_burn ECE < T_src ECE,-,False,,

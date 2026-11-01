@@ -1,0 +1,6 @@
+SHRP2 SAMPLES - aggregate counts only (shareable)
+object rules: ref=asgiven, size=car; train stride 10 frames, val/test every frame
+
+train: units 28486, samples 550313, known at 3 s 476534, positive at 3 s 11670, shards 12
+val: units 3562, samples 673049, known at 3 s 580829, positive at 3 s 14640, shards 14
+test: units 3562, samples 674225, known at 3 s 582005, positive at 3 s 14634, shards 14

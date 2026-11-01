@@ -1,0 +1,28 @@
+SHRP2 AUDIT - BASELINE FLAG CHECK - AGGREGATE COUNTS ONLY (no event IDs)
+========================================================================
+[per_chunk]
+       in_ego  in_sur  sur_not_in_ego  flag_11  flag_10  flag_00  flag_01  with_obj_flag_11  with_obj_flag_00  ego_only  ego_only_flag_10  not_in_files_flagged
+chunk                                                                                                                                                          
+0        6597    5292               0        0     1305     5292        0                 0              5292      1305              1305                     0
+1        6594    5272               0        0     1322     5272        0                 0              5272      1322              1322                     0
+2        6587    5346               0        0     1241     5346        0                 0              5346      1241              1241                     0
+3        5676    3912               0        0     1764     3912        0                 0              3912      1764              1764                     0
+4        5287    3893               0     3893     1394        0        0              3893                 0      1394              1394                     0
+
+[totals]
+  {'in_ego': 30741, 'in_sur': 23715, 'sur_not_in_ego': 0, 'flag_11': 3893, 'flag_10': 7026, 'flag_00': 19822, 'flag_01': 0, 'with_obj_flag_11': 3893, 'with_obj_flag_00': 19822, 'ego_only': 7026, 'ego_only_flag_10': 7026, 'not_in_files_flagged': 0}
+
+[predictions]
+  P1_chunks_before_last_have_no_flag_11: True
+  P2_last_chunk_flag_11_equals_its_trips_with_objects: True
+  P3_every_ego_only_trip_flagged_10: True
+  P4_every_unflagged_trip_in_files_has_objects: True
+  no_flagged_trip_missing_from_files: True
+  artefact_explanation_holds: True
+
+[quality_by_group] (baselines only; no outcome involved)
+                        trips  duration_s_median  duration_s_p25  share_frames_with_object_median  share_implausible_mean  excluded_implausible  eligible_100_frames  max_objects_median
+group                                                                                                                                                                                   
+ego_only                 7026               20.8            20.6                           0.0000                     0.0                     0                 7026                 0.0
+with_objects_flagged     3893               20.8            20.8                           0.9952                     0.0                     0                 3892                 3.0
+with_objects_unflagged  19822               20.8            20.6                           0.9951                     0.0                     0                19818                 3.0

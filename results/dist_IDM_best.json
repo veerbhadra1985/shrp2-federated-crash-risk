@@ -1,0 +1,81 @@
+{
+  "model": "IDM",
+  "driver_params_v3": {
+    "car_sf_mean": 0.9903327987773146,
+    "car_sf_dev": 0.05,
+    "truck_vmax": 24.64318811983611,
+    "tau": 0.6474816826079056,
+    "tau_cv": 0.6,
+    "min_gap": 1.0,
+    "lc_speed_gain": 0.6062085880374326,
+    "lc_keep_right": 1.9881349219018492,
+    "truck_lc_keep_right": 3.748364002977948,
+    "truck_lc_speed_gain": 0.3759153082167768,
+    "accel": 1.9393130176946256,
+    "decel": 4.0
+  },
+  "disturbance": {
+    "brake_rate": 4.0,
+    "brake_decel_min": 3.0,
+    "brake_decel_max": 6.0,
+    "cutin_gap_min": 5.0,
+    "cutin_gap_max": 30.0,
+    "emergency_decel": 6.0,
+    "cutin_rate": 45.0,
+    "cutin_drac_max": 4.5
+  },
+  "accepted": false,
+  "ttc3_ratio": 0.8222153720591783,
+  "ttc15_ratio": 13.239151896022381,
+  "validation": [
+    [
+      "PRIMARY: TTC<3 s share",
+      0.00037400620730595,
+      0.0003075136528925038,
+      "ratio 0.75-1.25",
+      true
+    ],
+    [
+      "SECONDARY: TTC<1.5 s share",
+      7.365563725140927e-06,
+      9.751381695697317e-05,
+      "ratio 0.5-2",
+      false
+    ],
+    [
+      "GUARD: traffic criteria (worst, x tolerance)",
+      2.0,
+      3.3157338965153094,
+      "<= 2 (flow_veh_h)",
+      false
+    ],
+    [
+      "GUARD: collisions",
+      0,
+      0,
+      "0",
+      true
+    ],
+    [
+      "GUARD: max braking m/s2",
+      6.0,
+      6.00000000000005,
+      "<= 6.0",
+      true
+    ],
+    [
+      "REALISM: frames braking >4 m/s2",
+      3e-05,
+      0.001309155097770749,
+      "report",
+      ""
+    ],
+    [
+      "REALISM: forced cut-ins per veh-km",
+      0.32,
+      0.08014324848646348,
+      "well below 0.32 (highD all lane changes)",
+      ""
+    ]
+  ]
+}

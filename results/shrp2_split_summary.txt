@@ -1,0 +1,20 @@
+SHRP2 REGISTERED SPLIT - aggregate counts only (shareable)
+seed 131; 80/10/10 per stratum; n_val = n_test = floor(0.1 n + 0.5)
+split.csv SHA-256: 02a37afe90c2ace9ac496c35e641d9655dff33ec525554878133550beb20e081
+
+split             train   val  test  total
+stratum                                   
+baseline|LU|SU    24593  3074  3074  30741
+crash|L0|S0         150    19    19    188
+crash|L0|S1          29     4     4     37
+crash|L0|SU           1     0     0      1
+crash|L1|S0          30     4     4     38
+crash|L1|S1          13     2     2     17
+near-crash|L0|S0   2577   322   322   3221
+near-crash|L0|S1    407    51    51    509
+near-crash|L0|SU      1     0     0      1
+near-crash|L1|S0    539    68    68    675
+near-crash|L1|S1    146    18    18    182
+
+totals: train 28486, val 3562, test 3562, total 35610
+strata with < 5 units (all training): 2

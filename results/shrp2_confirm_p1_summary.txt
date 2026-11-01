@@ -1,0 +1,32 @@
+SHRP2 CONFIRMATORY ANALYSIS, P1 PART (GSSM protocol) - aggregate results only (shareable)
+risk head hazard; B = 2000; clusters = test events; best classical (validation) = TTC
+
+                          test      family comparator  estimate  ci_low  ci_high      p  n_events_recorded_model  n_events_recorded_comparator testable                                                                                        note
+                           H1a  registered    GSSM_hC   0.05545 0.00984  0.09952 0.0080                    121.0                         228.0     True                                                         comparator GSSM h-C (highD/current)
+                           H1b  registered        TTC   0.28896 0.04721  0.44294 0.0010                    121.0                          58.0     True                                                          best classical on validation = TTC
+    H1a [2 method-independent] sensitivity    GSSM_hC   0.06058 0.01717  0.10701 0.0005                    202.0                         202.0     True 202 events (17 dropped: shared object not scored in the danger period by every method, C27)
+    H1b [2 method-independent] sensitivity        TTC   0.18856 0.09854  0.27181 0.0005                    202.0                         202.0     True 202 events (17 dropped: shared object not scored in the danger period by every method, C27)
+H1_P2 model-GSSM (event trips)   secondary        NaN   0.30780 0.27625  0.33541 0.0005                      NaN                           NaN      NaN                           93726 event-trip test frames; GSSM frame score = max over objects
+
+Per method (P1 AUPRC, mTTI with 99% sign-test interval):
+                 method  auprc  events_recorded  mtti_threshold  mtti_f1  mtti_mTTI                   mtti_ci99  mtti_n
+             model_s131 0.9640            125.0          0.3100   0.9350     1.6160              (1.254, 1.972)   120.0
+              lgbm_s131 0.9557            128.0          0.4256   0.9105     1.4950              (1.142, 1.835)   120.0
+             model_s132 0.9614            125.0          0.3318   0.9344     1.7960              (1.509, 2.022)   119.0
+              lgbm_s132 0.9575            130.0          0.4256   0.9261     1.5470              (1.185, 1.754)   123.0
+             model_s133 0.9701            122.0          0.2497   0.9383     1.7560              (1.529, 2.122)   119.0
+              lgbm_s133 0.9586            126.0          0.3318   0.9206     1.6560              (1.261, 1.922)   119.0
+             model_s134 0.9651            121.0          0.4750   0.9442     1.5340 (1.149, 2.0220000000000145)   113.0
+              lgbm_s134 0.9577            127.0          0.5498   0.9180     1.3370              (1.009, 1.656)   119.0
+             model_s135 0.9461            121.0          0.5000   0.9437     1.3845              (1.124, 1.743)   112.0
+              lgbm_s135 0.9569            130.0          0.3100   0.9202     1.6335              (1.218, 1.914)   124.0
+                GSSM_hC 0.9059            228.0          1.3800   0.8811     2.1080              (1.843, 2.358)   205.0
+                GSSM_SC 0.8878            246.0          1.3200   0.8479     2.2840               (1.895, 2.56)   209.0
+                    TTC 0.6724             58.0          3.3400   0.8065     2.5080              (2.078, 2.905)    54.0
+                   DRAC 0.7668             72.0          0.4500   0.8205     2.4960              (1.935, 2.874)    66.0
+                  TTC2D 0.6845             21.0          2.0400   0.8636     2.5030              (2.103, 3.896)    19.0
+           TTC2D_moving 0.6605             16.0          2.4100   0.8000     2.9035              (1.935, 4.295)    14.0
+         validation TTC 0.9675              NaN             NaN      NaN        NaN                         NaN     NaN
+        validation DRAC 0.8638              NaN             NaN      NaN        NaN                         NaN     NaN
+       validation TTC2D 0.8065              NaN             NaN      NaN        NaN                         NaN     NaN
+validation TTC2D_moving 0.7912              NaN             NaN      NaN        NaN                         NaN     NaN

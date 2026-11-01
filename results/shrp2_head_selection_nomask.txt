@@ -1,0 +1,5 @@
+SHRP2 RISK-HEAD SELECTION (registered Section 6; validation data only; aggregate, shareable)
+hazard head: AUPRC@3s mean 0.6536 | adaptive ECE@3s mean 0.00181
+separate + isotonic: AUPRC@3s mean 0.6510 | adaptive ECE@3s mean 0.00172
+AUPRC gain -0.0026 (needs >= 0.01); ECE ratio 0.950 (needs <= 1.2)
+CHOICE: hazard

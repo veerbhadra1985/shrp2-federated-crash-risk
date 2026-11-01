@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this repository."
+title: "Federated crash risk prediction with per-trip conformal false-alarm control: code and protocols"
+type: software
+authors:
+  - family-names: Singh
+    given-names: Veer Bhadra Pratap
+    affiliation: "Galgotias University, Greater Noida, India"
+license: MIT
+date-released: "2026-11-01"
+keywords:
+  - crash risk prediction
+  - naturalistic driving
+  - SHRP2
+  - federated learning
+  - conformal prediction
+  - domain shift
+references:
+  - type: generic
+    title: "Pre-registration (OSF)"
+    doi: "10.17605/OSF.IO/Y5ZRP"

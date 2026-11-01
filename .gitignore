@@ -1,0 +1,18 @@
+# licensed or derived data, models and third-party code: never commit
+data/
+models/
+baselines/
+*.parquet
+*.npz
+*.npy
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.pkl
+# environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

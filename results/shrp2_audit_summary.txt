@@ -1,0 +1,112 @@
+SHRP2 DATA AUDIT - AGGREGATE COUNTS ONLY (safe to share; contains no event IDs)
+==============================================================================
+
+[A_version_and_files]
+  version_detected: complete
+  categories: ['Crash', 'Crash-Crash', 'Crash-CrashRelevant', 'Crash-NearCrash', 'Crash-OtherConflict', 'CrashRelevant-Crash', 'CrashRelevant-NearCrash', 'NearCrash', 'NearCrash-Crash', 'NearCrash-CrashRelevant', 'NearCrash-NearCrash', 'NearCrash-OtherConflict', 'SafeBaseline', 'SecondaryCrash', 'SecondaryNearCrash']
+  files_per_category: {'Crash': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'Crash-Crash': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'Crash-CrashRelevant': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'Crash-NearCrash': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'Crash-OtherConflict': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'CrashRelevant-Crash': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'CrashRelevant-NearCrash': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'NearCrash': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'NearCrash-Crash': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'NearCrash-CrashRelevant': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'NearCrash-NearCrash': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'NearCrash-OtherConflict': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'SafeBaseline': ['Ego_birdseye_0.h5', 'Ego_birdseye_1.h5', 'Ego_birdseye_2.h5', 'Ego_birdseye_3.h5', 'Ego_birdseye_4.h5', 'Surrounding_birdseye_0.h5', 'Surrounding_birdseye_1.h5', 'Surrounding_birdseye_2.h5', 'Surrounding_birdseye_3.h5', 'Surrounding_birdseye_4.h5'], 'SecondaryCrash': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5'], 'SecondaryNearCrash': ['Ego_birdseye.h5', 'Surrounding_birdseye.h5']}
+  test_set_found: True
+  event_meta_files: 14
+  environment_files: 14
+  event_data_files: 14
+  event_features_files: 0
+
+[B_schema]
+  ego_missing: []
+  surrounding_missing: []
+  metadata_missing: []
+  event_meta_missing: []
+  environment_missing: []
+  ego_extra: []
+  surrounding_extra: ['index']
+  metadata_extra: []
+  schema_ok: True
+
+[C_identifiers]
+  identifier_columns_found: {}
+  unit_rule: no driver identifier -> unit = event (trip), registered rule
+
+[D_counts]
+  listed_trips: 41404
+  listed_by_category: {'SafeBaseline': 32509, 'NearCrash': 6160, 'Crash': 1726, 'NearCrash-NearCrash': 512, 'SecondaryNearCrash': 123, 'NearCrash-CrashRelevant': 112, 'NearCrash-Crash': 79, 'Crash-NearCrash': 49, 'Crash-Crash': 46, 'CrashRelevant-NearCrash': 31, 'SecondaryCrash': 17, 'NearCrash-OtherConflict': 15, 'Crash-OtherConflict': 11, 'CrashRelevant-Crash': 10, 'Crash-CrashRelevant': 4}
+  reconstructed_trips_in_h5: 38852
+  reconstructed_by_category: {'SafeBaseline': 30741, 'NearCrash': 5582, 'Crash': 1607, 'NearCrash-NearCrash': 463, 'SecondaryNearCrash': 111, 'NearCrash-CrashRelevant': 106, 'NearCrash-Crash': 74, 'Crash-Crash': 43, 'Crash-NearCrash': 43, 'CrashRelevant-NearCrash': 28, 'SecondaryCrash': 16, 'NearCrash-OtherConflict': 14, 'Crash-OtherConflict': 11, 'CrashRelevant-Crash': 9, 'Crash-CrashRelevant': 4}
+  metadata_flag_ego_reconstructed: 19030
+  trips_in_more_than_one_file: 0
+  ego_files_skipped_missing_columns: []
+  baseline_trips: 30741
+  test_set_events: 6664
+  test_set_included: 4875
+  included_events_with_trajectory: 4875
+  included_crash: 282
+  included_near_crash: 4593
+  included_unmapped_category: 0
+  outcome_rule: event category as in the GSSM code (C25); coded severities shown for information only
+  included_by_severity_info: {'crash': 215, 'near_crash': 4636, 'other': 24}
+  category_folder_vs_metadata_mismatch: 0
+  excluded_by_filters: {'duration_enough_false': 887, 'conflict_none': 1271}
+  included_missing_impact_timestamp: 5
+  published_comparison: {'test_set_included': [4875, 4875], 'crashes': [282, 282], 'near_crashes': [4593, 4593], 'baselines_reconstructed': [30741, 10919], 'events_reconstructed': [8111, 8111], 'note': '[obtained, published]; differences are documented, never adjusted (registration Section 2)'}
+
+[E_lengths]
+  duration_s_by_outcome: {'baseline': {'n': 30741, 'min': 6.7, 'p25': 20.6, 'median': 20.8, 'p75': 20.9, 'max': 20.9}, 'crash': {'n': 281, 'min': 9.9, 'p25': 29.4, 'median': 29.8, 'p75': 29.8, 'max': 39.3}, 'near-crash': {'n': 4589, 'min': 7.6, 'p25': 29.7, 'median': 29.8, 'p75': 29.9, 'max': 44.9}}
+  time_grid_gaps_total: 0
+  trips_with_gaps: 0
+  duplicate_grid_times_total: 0
+  trips_with_duplicate_times: 0
+  share_frames_without_raw_timestamp: 0.0002
+  note: duration = last minus first subject-vehicle timestamp; grid expected 100 ms
+
+[F_retention]
+  1s: {'share': 0.9992, 'kept': True}
+  2s: {'share': 0.9992, 'kept': True}
+  3s: {'share': 0.9982, 'kept': True}
+  5s: {'share': 0.9975, 'kept': True}
+  primary_3s_kept: True
+  pre_event_s: {'n': 4870, 'min': 0.92, 'p25': 21.82, 'median': 22.75, 'p75': 24.08, 'max': 34.27}
+
+[G_implausible]
+  ego_frames_speed_gt60: 144
+  ego_frames_acc_gt15_outside_crash_window: 1424
+  object_frames_speed_gt60: 1332
+  object_jumps_gt10m: 1362
+  trips_excluded_gt10pct: {'near-crash': 2}
+  trips_excluded_total: 2
+
+[H_eligibility]
+  units_total: 35610
+  units_eligible: 35573
+  eligible_by_outcome: {'baseline': 30736, 'crash': 271, 'near-crash': 4566}
+  eval_frames_total: 5814930
+  pos_frames_total: 145948
+  neg_frames_total: 5668982
+  events_with_positive_frame: 4867
+  eval_frames_per_unit: {'n': 35610, 'min': 0.0, 'p25': 159.0, 'median': 160.0, 'p75': 161.0, 'max': 304.0}
+  negatives_per_unit: {'n': 35610, 'min': 0.0, 'p25': 158.0, 'median': 160.0, 'p75': 161.0, 'max': 274.0}
+  eligible_units_below_1_over_eps: {'0.05': 0, '0.10': 0, 'op': 35573}
+  baseline_hours_eligible: 135.6
+
+[I_environment]
+  environment_rows: 6664
+  environment_duplicate_ids_dropped: 0
+  baselines_with_environment: 0
+  included_events_with_environment: 4875
+  raw_values: {'lighting': {'Daylight': 5254, 'Darkness, lighted': 911, 'Dusk': 211, 'Darkness, not lighted': 204, 'Dawn': 84}, 'weather': {'No Adverse Conditions': 5943, 'Raining': 317, 'Mist/Light Rain': 303, 'Snowing': 66, 'Fog': 21, 'Snow/Sleet and Fog': 6, 'Sleeting': 4, 'Rain and Fog': 3, 'Unknown': 1}, 'surfaceCondition': {'Dry': 5489, 'Wet': 1046, 'Snowy': 88, 'Icy': 28, 'Gravel/Dirt Road': 8, 'Unknown': 5}, 'trafficDensity': {'Level-of-service B: Flow with some restrictions': 2630, 'Level-of-service A1: Free flow, no lead traffic': 1382, 'Level-of-service A2: Free flow, leading traffic present': 1104, 'Level-of-service C: Stable flow, maneuverability and speed are more restricted': 987, 'Level-of-service D: Unstable flow - temporary restrictions substantially slow driver': 396, 'Level-of-service E: Flow is unstable, vehicles are unable to pass, temporary stoppages, etc.': 136, 'Level-of-service F: Forced traffic flow condition with low speeds and traffic volumes that are below capacity': 21, 'Unknown': 8}}
+  factor_levels_included_events: {'lighting': {'0': 3963, '1': 912, 'unknown': 0, 'UNMAPPED': 0}, 'weather': {'0': 4392, '1': 483, 'unknown': 0, 'UNMAPPED': 0}, 'surfaceCondition': {'0': 4128, '1': 745, 'unknown': 2, 'UNMAPPED': 0}, 'trafficDensity': {'0': 3420, '1': 1450, 'unknown': 5, 'UNMAPPED': 0}}
+  unmapped_values: {'lighting': [], 'weather': [], 'surfaceCondition': [], 'trafficDensity': []}
+  lighting_x_surface_cells_included_events: {'L0xS0': 3415, 'L1xS0': 713, 'L1xS1': 199, 'L0xS1': 546, 'L0xSNone': 2}
+
+[J_objects]
+  share_frames_with_object_by_outcome: {'baseline': 0.6033, 'crash': 0.7944, 'near-crash': 0.9038}
+  trips_without_any_object_by_outcome: {'baseline': 7026, 'crash': 0, 'near-crash': 0}
+  max_simultaneous_objects: 11
+  trips_with_more_than_8_objects_at_once: 237
+
+[K_reference_point]
+  matched_rows: 3700583
+  along_heading_m: {'n': 3700583, 'min': 0.0, 'p25': 0.0, 'median': 0.0, 'p75': 0.0, 'max': 0.0}
+  distance_m: {'n': 3700583, 'min': 0.0, 'p25': 0.0, 'median': 0.0, 'p75': 0.0, 'max': 0.0}
+  note: test-set x_sur minus Surrounding x_ekf; ~0 -> same reference point; ~half a car length -> test set uses the object centre
+
+[runtime_s]
+  91.6

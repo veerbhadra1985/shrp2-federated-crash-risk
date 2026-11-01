@@ -1,0 +1,64 @@
+{
+ "choice": "hazard",
+ "auprc_gain": -0.0025670831,
+ "ece_ratio": 0.9504439076,
+ "rule": "sep if gain >= 0.01 and ratio <= 1.2",
+ "per_seed": {
+  "hazard": [
+   {
+    "seed": 131,
+    "auprc3": 0.65348,
+    "ece_adaptive3": 0.000932
+   },
+   {
+    "seed": 132,
+    "auprc3": 0.651442,
+    "ece_adaptive3": 0.003699
+   },
+   {
+    "seed": 133,
+    "auprc3": 0.654993,
+    "ece_adaptive3": 0.001361
+   },
+   {
+    "seed": 134,
+    "auprc3": 0.655177,
+    "ece_adaptive3": 0.001749
+   },
+   {
+    "seed": 135,
+    "auprc3": 0.652691,
+    "ece_adaptive3": 0.001315
+   }
+  ],
+  "sep": [
+   {
+    "seed": 131,
+    "auprc3": 0.652365,
+    "ece_adaptive3": 0.001084
+   },
+   {
+    "seed": 132,
+    "auprc3": 0.655179,
+    "ece_adaptive3": 0.001612
+   },
+   {
+    "seed": 133,
+    "auprc3": 0.648222,
+    "ece_adaptive3": 0.003005
+   },
+   {
+    "seed": 134,
+    "auprc3": 0.651446,
+    "ece_adaptive3": 0.001833
+   },
+   {
+    "seed": 135,
+    "auprc3": 0.647736,
+    "ece_adaptive3": 0.001074
+   }
+  ]
+ },
+ "data": "validation split only",
+ "smoke": false
+}
